@@ -1,0 +1,7 @@
+POST http://localhost:5000/api/Hospital/patients
+Content-Type: application/json
+authenticationtoken: "abc"
+
+{
+  "name": "John"
+}
